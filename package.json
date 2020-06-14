@@ -2,7 +2,7 @@
   "name": "my_cnode",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/patientLink/cnode-react",
+  "homepage": "https://patientLink.github.io/cnode-react",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",
