@@ -108,11 +108,24 @@ img {
 .topics-pagination {
   margin-top: 10px;
   text-align: center;
-
+}
+.topics-pagination .ant-pagination-item{
+  margin-right: 4px;
+}
+.header_menu .ant-menu-item {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 @media all and (min-width: 576px) {
   .wrap {
     margin: 0 10px
+  }
+  .header_menu .ant-menu-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .topics-pagination .ant-pagination-item{
+    margin-right: 8px;
   }
   
 }

@@ -12,6 +12,7 @@ function IndexNav() {
   return (
     <Menu 
       mode="horizontal"
+      className="header_menu"
       selectedKeys={[activeIndex+'']}
       >
       {

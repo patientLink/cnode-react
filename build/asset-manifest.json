@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/patientLink/cnode-react/static/css/main.5cdcec71.chunk.css",
+    "main.js": "/patientLink/cnode-react/static/js/main.a281c6ad.chunk.js",
+    "main.js.map": "/patientLink/cnode-react/static/js/main.a281c6ad.chunk.js.map",
+    "runtime-main.js": "/patientLink/cnode-react/static/js/runtime-main.90b1c7e2.js",
+    "runtime-main.js.map": "/patientLink/cnode-react/static/js/runtime-main.90b1c7e2.js.map",
+    "static/css/2.a2026422.chunk.css": "/patientLink/cnode-react/static/css/2.a2026422.chunk.css",
+    "static/js/2.9baf3570.chunk.js": "/patientLink/cnode-react/static/js/2.9baf3570.chunk.js",
+    "static/js/2.9baf3570.chunk.js.map": "/patientLink/cnode-react/static/js/2.9baf3570.chunk.js.map",
+    "index.html": "/patientLink/cnode-react/index.html",
+    "precache-manifest.5490ca28a139c25499fc57b4a8eff441.js": "/patientLink/cnode-react/precache-manifest.5490ca28a139c25499fc57b4a8eff441.js",
+    "service-worker.js": "/patientLink/cnode-react/service-worker.js",
+    "static/css/2.a2026422.chunk.css.map": "/patientLink/cnode-react/static/css/2.a2026422.chunk.css.map",
+    "static/css/main.5cdcec71.chunk.css.map": "/patientLink/cnode-react/static/css/main.5cdcec71.chunk.css.map",
+    "static/js/2.9baf3570.chunk.js.LICENSE.txt": "/patientLink/cnode-react/static/js/2.9baf3570.chunk.js.LICENSE.txt",
+    "static/media/cnodejs_light.svg": "/patientLink/cnode-react/static/media/cnodejs_light.86f6a7c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90b1c7e2.js",
+    "static/css/2.a2026422.chunk.css",
+    "static/js/2.9baf3570.chunk.js",
+    "static/css/main.5cdcec71.chunk.css",
+    "static/js/main.a281c6ad.chunk.js"
+  ]
+}
