@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+/* @import '~antd/dist/antd.css'; */
 
 /* <576px */
 #root .page {
@@ -81,6 +81,18 @@ img {
 #topic .ant-comment-actions {
   margin: 0;
   position: absolute;
+}
+#topic .topic-card-title h1 {
+  max-width: 100%;
+  white-space: pre-line;
+  font-weight: 700;
+}
+#topic .topic-card-title p {
+  max-width: 90%;
+  white-space: pre-wrap;
+}
+#topic .topic-content a{
+  word-wrap: break-word;
 }
 .user_page .ant-card {
   margin-top:13px;

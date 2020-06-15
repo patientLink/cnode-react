@@ -13,17 +13,20 @@ export default function Detail(props) {
     bordered
     loading={loading}
     headStyle={{maxWidth: '100%'}}
-    title={<Fragment>
+    title={<div className="topic-card-title">
       <h1>
         <TopicTag tab={top?"top":(good?"good":tab)}/>
-        <span>{title}</span>
+        {title}
       </h1>
-      <p>● 作者：<Link to={`/user/${author.loginname}`}>{author.loginname}</Link> ● 创建时间：<FromNow date={create_at}/> ● 浏览人数：{visit_count || 0}
+      <p>
+        <span>● 作者：<Link to={`/user/${author.loginname}`}>{author.loginname}</Link></span>
+        <span> ● 创建时间：<FromNow date={create_at}/></span>
+        <span> ● 浏览人数：{visit_count || 0}</span>  
       </p>
-    </Fragment>}
+    </div>}
     type="inner"
   >
-    <div 
+    <div className="topic-content"
       dangerouslySetInnerHTML={{
         __html: content
       }}>
