@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from 'antd';
-import { Fragment } from 'react';
 import TopicTag from '../../component/topicTag'
 import { Link } from 'react-router-dom';
 import FromNow from '../../component/fromnow'

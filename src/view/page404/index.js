@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import {useHistroy, useHistory} from 'react-router-dom'
+import {useHistory} from 'react-router-dom'
 import {Alert} from 'antd'
 function Page404() {
   let history = useHistory()

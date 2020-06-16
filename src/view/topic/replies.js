@@ -15,9 +15,11 @@ export default function Replies(props) {
     type="inner"
   >
     <List 
-      dataSource={data.replies}
+      dataSource={data.replies && data.replies.map((reply, index) => {
+        return {...reply, idx: index}
+      })}
       renderItem={(item, index) => {
-        let {author, content, create_at, ups} = item;
+        let {author, content, create_at, ups, idx} = item;
         const actions = [
           <span key="comment-basic-like">
             {
@@ -29,7 +31,8 @@ export default function Replies(props) {
               </Fragment> : ''
             }
           </span>
-        ]
+        ];
+        console.log(item)
         return <List.Item><Comment 
           author={<Link to={`/user/${author.loginname}`}>{author.loginname}</Link>}
           avatar={
@@ -51,7 +54,7 @@ export default function Replies(props) {
               </div>
             }
           datetime={<Fragment>
-              <span>{index+1}楼 ● </span>
+              <span>{idx+1}楼 ● </span>
               <time><Fromnow date={create_at} /></time>
               {topAuthor === author.loginname ? <TopicTag tab="author" />: ''}
             </Fragment>}
