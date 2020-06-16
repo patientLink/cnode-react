@@ -91,20 +91,23 @@ img {
   max-width: 90%;
   white-space: pre-wrap;
 }
-#topic .topic-content a{
+#topic .ant-list-item .ant-comment{
+  width: 100%;
+}
+.markdown-text a,
+.markdown-text p {
   word-wrap: break-word;
 }
 #topic .ant-pagination {
   text-align: center;
 }
-#topic .ant-pagination .ant-pagination-item{
-  margin-right: 4px;
+#topic .ant-pagination li{
+  margin-right: 0;
 }
-.getstart-content a {
-  word-wrap: break-word;
-}
-.about-content a {
-  word-wrap: break-word;
+#topic .ant-pagination {
+  display: flex;
+  justify-content: space-around;
+  flex: 0 1 auto;
 }
 .user_page .ant-card {
   margin-top:13px;
@@ -131,10 +134,12 @@ img {
 }
 .topics-pagination {
   margin-top: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex: 0 1 auto;
 }
-.topics-pagination .ant-pagination-item{
-  margin-right: 4px;
+.topics-pagination li{
+  margin-right: 0;
 }
 .header_menu .ant-menu-item {
   padding-left: 8px;
@@ -148,10 +153,13 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .topics-pagination .ant-pagination-item{
+  #topic .ant-pagination {
+    display: block;
+  }
+  #topic .ant-pagination li{
     margin-right: 8px;
   }
-  #topic .ant-pagination .ant-pagination-item{
+  .topics-pagination li{
     margin-right: 8px;
   }
   

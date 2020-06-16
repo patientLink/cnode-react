@@ -48,6 +48,7 @@ export default function Replies(props) {
             }
             content={
               <div 
+                className="topic-reply-content"
                 dangerouslySetInnerHTML={{
                   __html: content
                 }}>
