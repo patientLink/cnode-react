@@ -42,6 +42,7 @@ function GetstartPage() {
       style={{marginTop: 13}}
     >
       <div
+        className="getstart-content"
         dangerouslySetInnerHTML={{
           __html: data
         }}

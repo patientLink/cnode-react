@@ -62,7 +62,8 @@ export default function Replies(props) {
         /></List.Item>
       }}
       pagination={{
-        total: data.replies && data.replies.length
+        total: data.replies && data.replies.length,
+        showSizeChanger: false
       }}
     />
   </Card>

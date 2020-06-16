@@ -63,6 +63,7 @@ function AboutPage() {
       style={{marginTop: 13}}
     >
       <div
+        className="about-content"
         dangerouslySetInnerHTML={{
           __html: data
         }}

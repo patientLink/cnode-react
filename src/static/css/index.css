@@ -94,6 +94,18 @@ img {
 #topic .topic-content a{
   word-wrap: break-word;
 }
+#topic .ant-pagination {
+  text-align: center;
+}
+#topic .ant-pagination .ant-pagination-item{
+  margin-right: 4px;
+}
+.getstart-content a {
+  word-wrap: break-word;
+}
+.about-content a {
+  word-wrap: break-word;
+}
 .user_page .ant-card {
   margin-top:13px;
 }
@@ -137,6 +149,9 @@ img {
     padding-right: 20px;
   }
   .topics-pagination .ant-pagination-item{
+    margin-right: 8px;
+  }
+  #topic .ant-pagination .ant-pagination-item{
     margin-right: 8px;
   }
   
